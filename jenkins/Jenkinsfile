@@ -26,5 +26,10 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
+        stage('MY Stage'){
+            steps{
+                echo 'hello from abhi'
+            }
+        }
     }
 }
